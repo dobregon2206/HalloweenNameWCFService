@@ -3,7 +3,7 @@
 Simple WCF Halloween Name Service Application & Client "Tester" Console Application
 
 Project Blog Article here: 
-
+https://portfolio.katiegirl.net/2019/04/09/simple-wcf-halloween-name-service-application-client-tester-console-application/
 
 About
 
