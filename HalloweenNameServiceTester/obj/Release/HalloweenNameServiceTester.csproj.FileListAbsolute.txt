@@ -1,0 +1,7 @@
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\HalloweenNameService\HalloweenNameServiceTester\bin\Release\HalloweenNameServiceTester.exe.config
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\HalloweenNameService\HalloweenNameServiceTester\bin\Release\HalloweenNameServiceTester.exe
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\HalloweenNameService\HalloweenNameServiceTester\bin\Release\HalloweenNameServiceTester.pdb
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\HalloweenNameService\HalloweenNameServiceTester\obj\Release\HalloweenNameServiceTester.csprojAssemblyReference.cache
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\HalloweenNameService\HalloweenNameServiceTester\obj\Release\HalloweenNameServiceTester.csproj.CoreCompileInputs.cache
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\HalloweenNameService\HalloweenNameServiceTester\obj\Release\HalloweenNameServiceTester.exe
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\HalloweenNameService\HalloweenNameServiceTester\obj\Release\HalloweenNameServiceTester.pdb

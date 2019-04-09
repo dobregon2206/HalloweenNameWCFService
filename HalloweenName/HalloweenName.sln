@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloweenName", "HalloweenName.csproj", "{BF55BF9E-3D5D-4B3E-915A-790AECBEE012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloweenNameServiceTester", "..\HalloweenNameServiceTester\HalloweenNameServiceTester.csproj", "{DFAC3F82-30A0-455F-A9F1-2EE5046EBEDD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BF55BF9E-3D5D-4B3E-915A-790AECBEE012} = {BF55BF9E-3D5D-4B3E-915A-790AECBEE012}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF55BF9E-3D5D-4B3E-915A-790AECBEE012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF55BF9E-3D5D-4B3E-915A-790AECBEE012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF55BF9E-3D5D-4B3E-915A-790AECBEE012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF55BF9E-3D5D-4B3E-915A-790AECBEE012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFAC3F82-30A0-455F-A9F1-2EE5046EBEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFAC3F82-30A0-455F-A9F1-2EE5046EBEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFAC3F82-30A0-455F-A9F1-2EE5046EBEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFAC3F82-30A0-455F-A9F1-2EE5046EBEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B196040-D000-423E-B405-B8F3C2FA7D1A}
+	EndGlobalSection
+EndGlobal

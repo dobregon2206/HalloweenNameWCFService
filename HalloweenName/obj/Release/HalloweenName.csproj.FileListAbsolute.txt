@@ -1,0 +1,7 @@
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\HalloweenNameService\HalloweenName\bin\HalloweenName.dll.config
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\HalloweenNameService\HalloweenName\bin\HalloweenName.dll
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\HalloweenNameService\HalloweenName\bin\HalloweenName.pdb
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\HalloweenNameService\HalloweenName\obj\Release\HalloweenName.csprojAssemblyReference.cache
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\HalloweenNameService\HalloweenName\obj\Release\HalloweenName.csproj.CoreCompileInputs.cache
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\HalloweenNameService\HalloweenName\obj\Release\HalloweenName.dll
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\HalloweenNameService\HalloweenName\obj\Release\HalloweenName.pdb
