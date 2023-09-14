@@ -78,6 +78,12 @@ namespace HalloweenNameServiceTester.HalloweenNameServiceRef {
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="HalloweenNameServiceRef.IHalloweenService")]
     public interface IHalloweenService {
         
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IHalloweenService/Authenticate", ReplyAction="http://tempuri.org/IHalloweenService/AuthenticateResponse")]
+        bool Authenticate(string username, string password);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IHalloweenService/Authenticate", ReplyAction="http://tempuri.org/IHalloweenService/AuthenticateResponse")]
+        System.Threading.Tasks.Task<bool> AuthenticateAsync(string username, string password);
+        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IHalloweenService/GetRandomName", ReplyAction="http://tempuri.org/IHalloweenService/GetRandomNameResponse")]
         HalloweenNameServiceTester.HalloweenNameServiceRef.Name GetRandomName();
         
@@ -116,6 +122,14 @@ namespace HalloweenNameServiceTester.HalloweenNameServiceRef {
         
         public HalloweenServiceClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress) {
+        }
+        
+        public bool Authenticate(string username, string password) {
+            return base.Channel.Authenticate(username, password);
+        }
+        
+        public System.Threading.Tasks.Task<bool> AuthenticateAsync(string username, string password) {
+            return base.Channel.AuthenticateAsync(username, password);
         }
         
         public HalloweenNameServiceTester.HalloweenNameServiceRef.Name GetRandomName() {

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
+using System.ServiceModel.Security;
 using System.Text;
 
 namespace HalloweenName
@@ -12,6 +13,11 @@ namespace HalloweenName
     /// </summary>
     public class HalloweenService : IHalloweenService
     {
+        public bool Authenticate(string username, string password)
+        {
+            return username == "usuario" && password == "12345";
+        }
+
         /// <summary>
         /// Gets a Fun Random Halloween Name
         /// </summary>

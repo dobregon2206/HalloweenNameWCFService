@@ -16,3 +16,15 @@ C:\Users\huaya\Source\Repos\HalloweenNameWCFService\HalloweenName\bin\Serilog.Si
 C:\Users\huaya\Source\Repos\HalloweenNameWCFService\HalloweenName\bin\Serilog.xml
 C:\Users\huaya\Source\Repos\HalloweenNameWCFService\HalloweenName\bin\Serilog.Sinks.Console.xml
 C:\Users\huaya\Source\Repos\HalloweenNameWCFService\HalloweenName\obj\Debug\HalloweenName.csproj.CopyComplete
+C:\Users\huaya\Source\Repos\nHalloweenNameWCFService\HalloweenName\bin\HalloweenName.dll.config
+C:\Users\huaya\Source\Repos\nHalloweenNameWCFService\HalloweenName\bin\HalloweenName.dll
+C:\Users\huaya\Source\Repos\nHalloweenNameWCFService\HalloweenName\bin\HalloweenName.pdb
+C:\Users\huaya\Source\Repos\nHalloweenNameWCFService\HalloweenName\bin\Serilog.dll
+C:\Users\huaya\Source\Repos\nHalloweenNameWCFService\HalloweenName\bin\Serilog.Sinks.Console.dll
+C:\Users\huaya\Source\Repos\nHalloweenNameWCFService\HalloweenName\bin\Serilog.xml
+C:\Users\huaya\Source\Repos\nHalloweenNameWCFService\HalloweenName\bin\Serilog.Sinks.Console.xml
+C:\Users\huaya\Source\Repos\nHalloweenNameWCFService\HalloweenName\obj\Debug\HalloweenName.csproj.AssemblyReference.cache
+C:\Users\huaya\Source\Repos\nHalloweenNameWCFService\HalloweenName\obj\Debug\HalloweenName.csproj.CoreCompileInputs.cache
+C:\Users\huaya\Source\Repos\nHalloweenNameWCFService\HalloweenName\obj\Debug\HalloweenName.csproj.CopyComplete
+C:\Users\huaya\Source\Repos\nHalloweenNameWCFService\HalloweenName\obj\Debug\HalloweenName.dll
+C:\Users\huaya\Source\Repos\nHalloweenNameWCFService\HalloweenName\obj\Debug\HalloweenName.pdb

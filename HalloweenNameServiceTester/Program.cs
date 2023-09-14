@@ -7,88 +7,51 @@ using HalloweenNameServiceTester.HalloweenNameServiceRef;
 
 namespace HalloweenNameServiceTester
 {
-    /// <summary>
-    /// Client "Tester" Application for Halloween Service
-    /// </summary>
     class Program
     {
-        /// <summary>
-        /// Main Method for Program Entry
-        /// </summary>
-        /// <param name="args">No input arguments used</param>
-     
-        static Dictionary<string, string> usuarios = new Dictionary<string, string>();
-
         static void Main(string[] args)
         {
-            RegistrarUsuario("Naycool", "12345");
-            RegistrarUsuario("usuario", "12345");
-
-            if (!AutenticarUsuario())
-            {
-                Console.WriteLine("Incorrecto");
-                return;
-            }
-
-            // Create Client Proxy to the Service
-            HalloweenServiceClient proxy = new HalloweenServiceClient();
-
-            #region Test Get One Halloween Name
-
-            // Call the Service through the Proxy
-            Name n = proxy.GetRandomName();
-
-            // Write the Result to the Console Window
-            Console.WriteLine("Your Halloween Name is {0} {1}", n.FirstName, n.LastName);
-            Console.WriteLine();
-            #endregion Test Get One Halloween Name
-
-            #region Test Get List of Halloween Names
-
-            // Call the Service through the Proxy
-            // FYI WCF/WSDL Does not Support Generics in Services
-            // It returns an Array of Items 
-            List<Name> names = proxy.GetRandomNames(5).ToList();
-
-            Console.WriteLine("List of Halloween Names");
-            Console.WriteLine("=======================");
-
-            foreach (Name item in names)
-            {
-                Console.WriteLine("{0} {1}", item.FirstName, item.LastName);
-            }
-
-            #endregion Test Get List of Halloween Names
-
-            // Wait for the User to See the Input
-            Console.WriteLine("Press <Enter> to Quit...");
-            Console.ReadLine();
-        }
-        static void RegistrarUsuario(string username, string password)
-        {
-            usuarios[username] = password;
-        }
-
-        static bool AutenticarUsuario()
-        {
-            Console.WriteLine("Por favor, ingresa tus credenciales:");
-
+            // Solicitar credenciales al usuario
             Console.Write("Nombre de usuario: ");
             string username = Console.ReadLine();
 
             Console.Write("Contraseña: ");
             string password = Console.ReadLine();
 
-            if (usuarios.ContainsKey(username) && usuarios[username] == password)
+            // Crear una instancia del cliente proxy del servicio
+            HalloweenServiceClient proxy = new HalloweenServiceClient();
+
+            // Establecer las credenciales del cliente
+            proxy.ClientCredentials.UserName.UserName = username;
+            proxy.ClientCredentials.UserName.Password = password;
+
+            // Autenticar las credenciales
+            bool isAuthenticated = proxy.Authenticate(username, password);
+
+            if (isAuthenticated)
             {
-                Console.WriteLine("Autenticación exitosa.");
-                return true;
+                Name n = proxy.GetRandomName();
+
+                Console.WriteLine("Tu nombre de Halloween es {0} {1}", n.FirstName, n.LastName);
+                Console.WriteLine();
+
+                List<Name> names = proxy.GetRandomNames(5).ToList<Name>();
+
+                Console.WriteLine("Lista de nombres de Halloween");
+                Console.WriteLine("=======================");
+
+                foreach (Name item in names)
+                {
+                    Console.WriteLine("{0} {1}", item.FirstName, item.LastName);
+                }
+            }
+            else
+            {
+                Console.WriteLine("Autenticación fallida. Por favor, verifica tus credenciales.");
             }
 
-            Console.WriteLine("Autenticación fallida.");
-            return false;
-
-        }// end of main method
-    }// end of class
-
-} //end of namespace
+            Console.WriteLine("Presiona <Enter> para salir...");
+            Console.ReadLine();
+        }
+    }
+}

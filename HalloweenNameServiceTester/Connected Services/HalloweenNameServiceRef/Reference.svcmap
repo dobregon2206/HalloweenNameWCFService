@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="06de763b-d926-4e8d-9660-c1185f4c9935" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="06de763b-d926-4e8d-9660-c1185f4c9935" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,11 +22,11 @@
     <MetadataSource Address="http://localhost:10801/HalloweenService.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="HalloweenService.wsdl" MetadataType="Wsdl" ID="95defb24-008d-44de-9e7e-c0be5a93239b" SourceId="1" SourceUrl="http://localhost:10801/HalloweenService.svc?wsdl" />
-    <MetadataFile FileName="HalloweenService.xsd" MetadataType="Schema" ID="1bd61161-cc8b-4134-acd2-7fced75e44fc" SourceId="1" SourceUrl="http://localhost:10801/HalloweenService.svc?xsd=xsd0" />
-    <MetadataFile FileName="HalloweenService1.xsd" MetadataType="Schema" ID="6f8b3760-bfdf-4eb6-acad-aef2d1bb9bc1" SourceId="1" SourceUrl="http://localhost:10801/HalloweenService.svc?xsd=xsd2" />
     <MetadataFile FileName="HalloweenService2.xsd" MetadataType="Schema" ID="46b5a898-a2f1-481f-b4b1-39140d250418" SourceId="1" SourceUrl="http://localhost:10801/HalloweenService.svc?xsd=xsd1" />
+    <MetadataFile FileName="HalloweenService.wsdl" MetadataType="Wsdl" ID="95defb24-008d-44de-9e7e-c0be5a93239b" SourceId="1" SourceUrl="http://localhost:10801/HalloweenService.svc?wsdl" />
     <MetadataFile FileName="HalloweenService.disco" MetadataType="Disco" ID="81f4d087-fd91-4d4f-b6d6-c0f1478a9c1c" SourceId="1" SourceUrl="http://localhost:10801/HalloweenService.svc?disco" />
+    <MetadataFile FileName="HalloweenService1.xsd" MetadataType="Schema" ID="6f8b3760-bfdf-4eb6-acad-aef2d1bb9bc1" SourceId="1" SourceUrl="http://localhost:10801/HalloweenService.svc?xsd=xsd2" />
+    <MetadataFile FileName="HalloweenService.xsd" MetadataType="Schema" ID="1bd61161-cc8b-4134-acd2-7fced75e44fc" SourceId="1" SourceUrl="http://localhost:10801/HalloweenService.svc?xsd=xsd0" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

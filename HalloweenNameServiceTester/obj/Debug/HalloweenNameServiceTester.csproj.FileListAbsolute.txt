@@ -11,3 +11,10 @@ C:\Users\huaya\Source\Repos\HalloweenNameWCFService\HalloweenNameServiceTester\o
 C:\Users\huaya\Source\Repos\HalloweenNameWCFService\HalloweenNameServiceTester\obj\Debug\HalloweenNameServiceTester.csproj.CoreCompileInputs.cache
 C:\Users\huaya\Source\Repos\HalloweenNameWCFService\HalloweenNameServiceTester\obj\Debug\HalloweenNameServiceTester.exe
 C:\Users\huaya\Source\Repos\HalloweenNameWCFService\HalloweenNameServiceTester\obj\Debug\HalloweenNameServiceTester.pdb
+C:\Users\huaya\Source\Repos\nHalloweenNameWCFService\HalloweenNameServiceTester\obj\Debug\HalloweenNameServiceTester.csproj.AssemblyReference.cache
+C:\Users\huaya\Source\Repos\nHalloweenNameWCFService\HalloweenNameServiceTester\obj\Debug\HalloweenNameServiceTester.csproj.CoreCompileInputs.cache
+C:\Users\huaya\Source\Repos\nHalloweenNameWCFService\HalloweenNameServiceTester\obj\Debug\HalloweenNameServiceTester.exe
+C:\Users\huaya\Source\Repos\nHalloweenNameWCFService\HalloweenNameServiceTester\obj\Debug\HalloweenNameServiceTester.pdb
+C:\Users\huaya\Source\Repos\nHalloweenNameWCFService\HalloweenNameServiceTester\bin\Debug\HalloweenNameServiceTester.exe.config
+C:\Users\huaya\Source\Repos\nHalloweenNameWCFService\HalloweenNameServiceTester\bin\Debug\HalloweenNameServiceTester.exe
+C:\Users\huaya\Source\Repos\nHalloweenNameWCFService\HalloweenNameServiceTester\bin\Debug\HalloweenNameServiceTester.pdb

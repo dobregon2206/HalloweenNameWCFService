@@ -13,6 +13,8 @@ namespace HalloweenName
     [ServiceContract]
     public interface IHalloweenService
     {
+        [OperationContract]
+        bool Authenticate(string username, string password);
         /// <summary>
         /// Get a Random Halloween Name!
         /// </summary>
